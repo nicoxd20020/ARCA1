@@ -1,0 +1,86 @@
+/* Estilo base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #001d44, #004081);
+    color: #fff;
+  }
+  
+  header {
+    background-color: #001d44;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .banner {
+    background: linear-gradient(90deg, #003366, #004081);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .banner h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #ffffff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #004081;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #001d44;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
